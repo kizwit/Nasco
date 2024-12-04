@@ -1,6 +1,6 @@
-# Distributed Denial of Service (DDoS) Attack
+# DDNASCO
 
-A Distributed Denial of Service (DDoS) attack is a type of denial of service attack in which the incoming traffic flooding the victim so that it cannot respond to legitimate traffic. This project is a simple implementation of a DDoS attack using Python and Scapy.
+
 
 ![](https://img.shields.io/github/license/karthik558/ddos-attack?style=for-the-badge)
 ![](https://img.shields.io/github/forks/karthik558/ddos-attack?style=for-the-badge)
@@ -39,16 +39,16 @@ https://github.com/kizwit/Nasco.git
 To use the project, follow these steps:
 
 - Open the terminal and run the following command:
-- `cd ddos-attack`
+- `cd ddnasco`
 - `pip install -r requirements.txt`
-- `python3 ddos.py`
+- `python3 ddnasco.py`
 
-- Enter the _IP-address_ of the target Website/Machine and Port number [use `nslookup` to find the IP address of the target website or use any other online website to find the IP address of the target Website/Machine.]
-- Thats it! The attack will start automatically.
+  
+- Thats it! The test will start automatically.
 
 ## Contributing
 
-Contributions to the project are welcome. If you would like to suggest an improvement or report a bug, please open an issue or submit a pull request.
+
 
 ## License
 
